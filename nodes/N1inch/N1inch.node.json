@@ -1,0 +1,20 @@
+{
+  "node": "N8nDevN1inch",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": [
+    "Development"
+  ],
+  "resources": {
+    "primaryDocumentation": [
+      {
+        "url": "https://github.com/n8n-code/n8n-nodes-1inch"
+      }
+    ],
+    "credentialDocumentation": [
+      {
+        "url": "https://github.com/n8n-code/n8n-nodes-1inch?tab=readme-ov-file#credentials"
+      }
+    ]
+  }
+}
