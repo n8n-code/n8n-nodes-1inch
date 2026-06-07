@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-1inch",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "1inch DEX aggregator with Pathfinder routing algorithm accessing 50+ liquidity sources across 12+ blockchain networks for optimal token swaps",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-1inch",
