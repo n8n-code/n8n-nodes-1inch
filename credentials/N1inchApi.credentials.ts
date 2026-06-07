@@ -55,7 +55,7 @@ export class N1inchApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 			"request": {
-				"baseURL": "={{ $credentials.baseUrl }}",
+				"baseURL": "={{ $credentials.url }}",
 				"url": "/v6.0/1/quote",
 				"method": "GET"
 			}
