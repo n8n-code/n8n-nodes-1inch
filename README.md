@@ -53,11 +53,30 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Swap | GET Find the best quote to swap with 1inch Router, GET Generate calldata to swap on 1inch Router |
-| Approve | GET Address of the 1inch Router that is trusted to spend funds for the swap, GET Generate approve calldata to allow 1inch Router to perform a swap, GET Get the number of tokens that the 1inch Router is allowed to swap |
-| Info | GET List of liquidity sources that are available for routing in the 1inch Aggregation Protocol, GET List of tokens that are available for swap in the 1inch Aggregation protocol |
+<details>
+<summary><b>Swap</b> (2 operations)</summary>
+
+- Get Find the best quote to swap with 1inch Router
+- Get Generate calldata to swap on 1inch Router
+
+</details>
+
+<details>
+<summary><b>Approve</b> (3 operations)</summary>
+
+- Get Address of the 1inch Router that is trusted to spend funds for the swap
+- Get Generate approve calldata to allow 1inch Router to perform a swap
+- Get the number of tokens that the 1inch Router is allowed to swap
+
+</details>
+
+<details>
+<summary><b>Info</b> (2 operations)</summary>
+
+- Get List of liquidity sources that are available for routing in the 1inch Aggregation Protocol
+- Get List of tokens that are available for swap in the 1inch Aggregation protocol
+
+</details>
 
 ---
 

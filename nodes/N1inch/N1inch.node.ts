@@ -11,7 +11,7 @@ export class N1inch implements INodeType {
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: '1inch DEX aggregator with Pathfinder routing algorithm accessing 50+ liquidity sources across 12+ blockchain networks for optimal token swaps',
+		description: '1inch DEX aggregator uses Pathfinder algorithm across 50+ sources on 12+ chains for optimal swaps.',
 		defaults: { name: '1inch' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
